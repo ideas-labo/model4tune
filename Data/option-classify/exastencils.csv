@@ -1,0 +1,13 @@
+Option,Primary Category,Subcategory,Symbol
+root,Functional,Core,F1
+opt_useAddressPrecalc,Functional,Core,F1
+opt_vectorize,Functional,Core,F1
+simd_avoidUnaligned,Resource,CPU,R1
+data_alignFieldPointers,Resource,Memory,R3
+opt_unroll_interleave,Functional,Core,F1
+opt_unroll,Functional,Core,F1
+no_explorationId,Functional,Core,F1
+explorationId,Functional,Core,F1
+poly_tileSize_x,Resource,Memory,R3
+poly_tileSize_y,Resource,Memory,R3
+poly_tileSize_z,Resource,Memory,R3

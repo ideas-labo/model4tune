@@ -1,0 +1,17 @@
+Option,Primary Category,Subcategory,Symbol
+root,Functional,Core,F1
+mpm,Functional,Core,F1
+prefork,Functional,Core,F1
+worker,Functional,Core,F1
+moreThreads,Resource,CPU,R1
+moreProcesses,Resource,CPU,R1
+sendfile,Functional,Core,F1
+compression,Functional,Core,F1
+noCompression,Functional,Core,F1
+keepalive,Functional,Core,F1
+basicAuth,Functional,Core,F1
+tls,Functional,Core,F1
+tlsAes128,Functional,Core,F1
+tlsAes256,Functional,Core,F1
+maxClients,Resource,CPU,R1
+compressionLevel,Resource,CPU,R1

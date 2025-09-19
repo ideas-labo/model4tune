@@ -1,0 +1,11 @@
+Option,Primary Category,Subcategory,Symbol
+iosCreateImagesetFolders,Functional-related,Core,F1
+androidMipmapInsteadOfDrawable,Functional-related,Core,F1
+scaleIsHeightDp,Functional-related,Utility,F2
+antiAliasing,Functional-related,Core,F1
+skipUpscaling,Functional-related,Core,F1
+androidIncludeLdpiTvdpi,Functional-related,Core,F1
+threads,Resource-related,CPU,R1
+outputCompressionMode,Functional-related,Utility,F2
+roundingStrategy,Functional-related,Utility,F2
+platform,Functional-related,Utility,F2

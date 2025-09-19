@@ -1,0 +1,12 @@
+Option,Primary Category,Subcategory,Symbol
+delayedInnodbLogFlush,Resource,Storage,R2
+delayedInnodbLogWrite,Resource,Storage,R2
+innodbFlushMethod,Resource,Storage,R2
+fsyncFlush,Resource,Storage,R2
+dsyncFlush,Resource,Storage,R2
+directFlush,Resource,Storage,R2
+binaryLog,Functional,Core,F1
+innodbDoubleWrite,Resource,Storage,R2
+tempTableSize,Resource,Memory,R3
+innodbBufferPoolSize,Resource,Memory,R3
+innodbLogBufferSize,Resource,Memory,R3

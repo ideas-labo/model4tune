@@ -1,0 +1,13 @@
+Option,Primary Category,Subcategory,Symbol
+batch_size,Resource,CPU,R1
+conv_1_num_filters,Functional,Core,F1
+conv_1_filter_size,Functional,Core,F1
+conv_2_num_filters,Functional,Core,F1
+conv_2_filter_size,Functional,Core,F1
+conv_3_num_filters,Functional,Core,F1
+conv_3_filter_size,Functional,Core,F1
+log_lr,Functional,Core,F1
+log_beta_1,Functional,Core,F1
+log_beta_2,Functional,Core,F1
+log_epsilon,Functional,Core,F1
+log_decay,Functional,Core,F1

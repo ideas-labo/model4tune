@@ -1,0 +1,12 @@
+Option,Primary Category,Subcategory,Symbol
+min_child_weight,Functional,Core,F1
+nthread,Resource,CPU,R1
+n_estimators,Functional,Core,F1
+max_depth,Functional,Core,F1
+learning_rate,Functional,Core,F1
+max_delta_step,Functional,Core,F1
+subsample,Functional,Core,F1
+colsample_bytree,Functional,Core,F1
+lambda,Functional,Core,F1
+alpha,Functional,Core,F1
+scale_pos_weight,Functional,Core,F1

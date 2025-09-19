@@ -1,0 +1,19 @@
+# Core scientific computing
+numpy==1.24.4
+pandas==2.0.3
+scipy==1.10.1
+scikit-learn==1.2.2
+
+# Visualization
+matplotlib==3.10.6
+seaborn==0.13.2
+
+# # Machine learning frameworks
+# torch>=1.10.0
+# tensorflow>=2.8.0
+lightgbm==4.6.0
+
+# Specialized tools
+pflacco==1.2.2
+doepy==0.0.1
+imbalanced-learn==0.12.4

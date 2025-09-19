@@ -1,0 +1,15 @@
+Option,Primary Category,Subcategory,Symbol
+root,Functional,Core,F1
+filterOff,Functional,Core,F1
+HeaderCompressionOff,Functional,Core,F1
+mtOff,Resource,CPU,R1
+CompressionMethod,Functional,Core,F1
+LZMA,Functional,Core,F1
+LZMA2,Functional,Core,F1
+PPMd,Functional,Core,F1
+BZip2,Functional,Core,F1
+Deflate,Functional,Core,F1
+tmOff,Resource,CPU,R1
+Files,Functional,Core,F1
+BlockSize,Resource,Memory,R3
+x,Functional,Core,F1

@@ -1,0 +1,17 @@
+Option,Primary Category,Subcategory,Symbol
+journal,Functional,Core,F1
+nojournal,Functional,Core,F1
+journalCompression,Functional,Core,F1
+journalCompressionSnappy,Functional,Core,F1
+journalCompressionZlib,Functional,Core,F1
+ssl,Functional,Core,F1
+networkCompression,Functional,Core,F1
+networkCompressionSnappy,Functional,Core,F1
+networkCompressionZlib,Functional,Core,F1
+wireObjectCheck,Functional,Core,F1
+dataCompression,Functional,Core,F1
+dataCompressionSnappy,Functional,Core,F1
+dataCompressionZlib,Functional,Core,F1
+indexPrefixCompression,Functional,Core,F1
+journalCommitInterval,Resource,Storage,R2
+cacheSize,Resource,Memory,R3

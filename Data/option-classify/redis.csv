@@ -1,0 +1,10 @@
+Option,Primary Category,Subcategory,Symbol
+replBacklogSize,Resource,Memory,R3
+hashMaxZiplistValue,Resource,Memory,R3
+hashMaxZiplistEntries,Resource,Memory,R3
+listMaxZiplistSize,Resource,Memory,R3
+activeDefragIgnoreBytes,Resource,Memory,R3
+activeDefragThresholdLower,Resource,CPU,R1
+replDisableTcpNodelay,Resource,CPU,R1
+hllSparseMaxBytes,Resource,Memory,R3
+hz,Resource,CPU,R1

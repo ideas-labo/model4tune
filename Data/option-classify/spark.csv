@@ -1,0 +1,14 @@
+Option,Primary Category,Subcategory,Symbol
+executorCores,Resource,CPU,R1
+executorMemory,Resource,Memory,R3
+memoryFraction,Resource,Memory,R3
+memoryStorageFraction,Resource,Memory,R3
+defaultParallelism,Resource,CPU,R1
+shuffleCompress,Functional,Core,F1
+shuffleSpillCompress,Functional,Core,F1
+broadcastCompress,Functional,Core,F1
+rddCompress,Functional,Core,F1
+ioCompressionCodec,Functional,Core,F1
+reducerMaxSizeInFlight,Resource,Memory,R3
+shuffleFileBuffer,Resource,Memory,R3
+serializer,Functional,Core,F1

@@ -1,0 +1,10 @@
+Option,Primary Category,Subcategory,Symbol
+root,Functional,Core,F1
+fsync,Resource,Storage,R2
+synchronousCommit,Resource,Storage,R2
+fullPageWrites,Resource,Storage,R2
+trackActivities,Functional,Core,F1
+trackCounts,Functional,Core,F1
+sharedBuffers,Resource,Memory,R3
+tempBuffers,Resource,Memory,R3
+workMem,Resource,Memory,R3
