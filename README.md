@@ -33,10 +33,9 @@ Model4Tune/
 ├── RQ*.py                         # Research question analysis scripts
 ├── utils/                         # Utility modules
 ├── Data/                          # Input datasets
-├── landscape_data/                # Landscape measurement results
+├── landscape_data/                # An example of landscape measurement results
 ├── processed_data/                # Processed landscape results
-├── results/                       # Experiment outputs
-└── feature_combo_tables/          # Generated LaTeX tables
+└──  results/                      # Experiment outputs
 ```
 
 ## Quick Start
@@ -115,7 +114,7 @@ python RQ4_individual_option_influence.py
 ## Other info
 
 - Tuners specification can be seen in [Tuners](https://github.com/ideas-labo/model-impact).
-- The raw data in [data](https://zenodo.org/records/17160110).
+- Other landscape results: the raw data in [data](https://zenodo.org/records/17160110).
 
 ## Data Format
 
