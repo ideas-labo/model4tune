@@ -338,7 +338,7 @@ class ResultsAnalyzer:
         metrics = ['ndcg_1', 'ndcg_10', 'ndcg_20', 'ndcg_all', 'map_1', 'map_10', 'map_20', 'map_all']
         
         import os
-        os.makedirs('feature_combo_tables_sequential', exist_ok=True)
+        os.makedirs('sequential', exist_ok=True)
         
         feature_combos = results_df[results_df['type'] == 'model']['feature_combo'].unique()
         
@@ -448,10 +448,10 @@ class ResultsAnalyzer:
             combo_latex += f"\\label{{tab:combo_{combo.replace('+', '_')}_performance_sequential}}\n\\end{{table}}"
             
             safe_combo_name = combo.replace('+', '_').replace('/', '_')
-            with open(f'feature_combo_tables_sequential/{safe_combo_name}_performance.tex', 'w', encoding='utf-8') as f:
+            with open(f'sequential/{safe_combo_name}_performance.tex', 'w', encoding='utf-8') as f:
                 f.write(combo_latex)
             
-            logger.info(f"Sequential feature combination table for {combo} saved to 'feature_combo_tables_sequential/{safe_combo_name}_performance.tex'")
+            logger.info(f"Sequential feature combination table for {combo} saved to 'sequential/{safe_combo_name}_performance.tex'")
             logger.info(f"Combo {combo} - Positive improvements: {pos_count}, Negative improvements: {neg_count}")
     
     def generate_feature_combination_summary_table(self, results_df: pd.DataFrame) -> str:
