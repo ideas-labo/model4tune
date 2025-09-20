@@ -1,7 +1,6 @@
 # Model4Tune
 
 [![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 ## Overview
 
@@ -12,6 +11,7 @@ This repository contains the implementation and experimental code for
 ```
 To efficiently tune configuration for better system performance (e.g., latency), many tuners have leveraged a surrogate model to expedite the process instead of solely relying on the profoundly expensive system measurement. As such, it is naturally believe that we need more accurate model. However, the fact of "accuracy can lie"-a somewhat surprising finding from prior work-has left us many unanswered questions regarding what role does the surrogate model plays for configuration tuning. This paper provides the very first systematic exploration and discussion, together with a resolution proposal, to disclose the many faces of surrogate model for configuration tuning, through the novel perspective of fitness landscape analysis. We propose a theory as an alternative to accuracy for assessing the model usefulness for configuration, based on which we conduct an extensive empirical studying involving about 28,980 cases. Drawing on the above, we propose Model4Tune, an automated predictive tool that estimates which model-tuner pairs are the best for an unforeseen system without expensive profiling. Our results suggest that Model4Tune, as one of the first of its kind, performs 92.1% better than random guessing. Our work does not only shed lights on the possible future research directions, but also offers a practical resolution that can assist practitioners in evaluating the most useful model for configuration tuning.
 ```
+
 ## Key Features
 
 - **Real Space Landscape Measurement**: Compute landscape metrics (FDC, PLO, NBC, etc.) from actual performance measurements
@@ -50,7 +50,7 @@ Model4Tune/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/Model4Tune.git
+git clone https://github.com/ideas-labo/model4tune
 cd Model4Tune
 ```
 
@@ -112,10 +112,10 @@ python RQ3_best_model.py
 python RQ4_individual_option_influence.py
 ```
 
-## Tuner
+## Other info
 
-Specification can be seen in [Tunres](https://github.com/ideas-labo/model-impact).
-
+- Tuners specification can be seen in [Tuners](https://github.com/ideas-labo/model-impact).
+- The raw data in [data](https://zenodo.org/records/17160110).
 
 ## Data Format
 
@@ -131,25 +131,5 @@ feature1,feature2,feature3,performance
 1,0,1,198.7
 ...
 ```
-
-<!-- ## Citation
-
-If you use this code in your research, please cite our paper:
-
-```bibtex
-@article{model4tune2024,
-  title={Model4Tune: Performance Prediction and Landscape Analysis for Software Product Lines},
-  author={[Author Names]},
-  journal={[Journal Name]},
-  year={2024},
-  publisher={[Publisher]}
-}
-``` -->
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-
 
 
