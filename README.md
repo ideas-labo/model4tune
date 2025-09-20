@@ -35,7 +35,7 @@ Model4Tune/
 ├── Data/                          # Input datasets
 ├── landscape_data/                # An example of landscape measurement results
 ├── processed_data/                # Processed landscape results
-└──  results/                      # Experiment outputs
+└── Results/                       # supplementary material for results of model4tune
 ```
 
 ## Quick Start
