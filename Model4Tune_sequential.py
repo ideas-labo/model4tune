@@ -355,7 +355,7 @@ class ResultsAnalyzer:
             
             combo_latex = f"\\begin{{table}}[htbp]\n\\centering\n\\renewcommand{{\\arraystretch}}{{1.2}}\n"
             combo_latex += "\\begin{tabular}{l|cccc|cccc}\n\\hline\n"
-            combo_latex += "System & NDCG@1 & NDCG@10 & NDCG@20 & NDCG(all) & AP@1 & AP@10 & AP@20 & MAP(all) \\\\ \\hline\n"
+            combo_latex += "System & NDCG@1 & NDCG@10 & NDCG@20 & NDCG(all) & AP@1 & AP@10 & AP@20 & AP(all) \\\\ \\hline\n"
             
             pos_count = 0
             neg_count = 0
@@ -703,9 +703,9 @@ class Model4TuneExperiment:
 def main():
     """Main execution function"""
     config = ExperimentConfig(
-        base_learning_rate=0.05,     
-        learning_rate_step=0.01,      
-        n_iterations=5               
+        base_learning_rate=0.05,    
+        learning_rate_step=0.0025,      
+        n_iterations=30               
     )
     experiment = Model4TuneExperiment(config)
     experiment.run_experiment()
