@@ -5,7 +5,7 @@
 ## Overview
 
 This repository contains the implementation and experimental code for 
-> unveiling Many Faces of Surrogate Model for Configuration Tuning: A Fitness Landscape Analysis Perspective
+> Unveiling Many Faces of Surrogate Model for Configuration Tuning: A Fitness Landscape Analysis Perspective
 
 ## Introduction
 
